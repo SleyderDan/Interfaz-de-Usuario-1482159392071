@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Interfaz de Usuario
+  host: Interfaz-de-Usuario
+  disk_quota: 1024M
+  services:
+  - Conversation-UTPL
+  - availability-monitoring-auto
+  env:
+    WORKSPACE_ID: 6ff151a9-7392-4746-8ad9-f7caebe6346e
